@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(12, 54, 71);
+}
+
+nav {
+  color: rgb(12, 54, 71);
+  position: absolute;
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.logo-container {
+  background: linear-gradient(60deg, #ffffff, #53aff1);
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 9.5rem;
+  margin-top: 1rem;
+  opacity: 0.8;
+}
+.logo {
+  font-family: "Great Vibes";
+  margin-left: 5rem;
+  font-size: 3.5rem;
+  flex: 1;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  font-weight: lighter;
+}
+
+.nav-links {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  flex: 0.8;
+  justify-content: space-between;
+  padding: 2.5rem;
+
+  margin-right: 2rem;
+  /*animate*/
+}
+.nav-link {
+  justify-content: center;
+  display: flex;
+}
+
+.hero {
+  display: flex;
+}
+
+.animation {
+  background: #000000;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  align-items: center; /*animate*/
+  transform: translateY(90rem);
+  z-index: 2;
+}
+
+.slide h3 {
+  padding: 0rem 2rem;
+  display: flex;
+}
+
+.intro-text1 {
+  display: flex;
+  font-size: 5rem;
+  font-family: "Poppins";
+  font-weight: bolder;
+  transform: translateX(-100rem); /*animate*/
+}
+h3 {
+  color: rgb(255, 255, 255);
+}
+
+.intro-text2 {
+  display: flex;
+  font-size: 5rem;
+  font-family: "Poppins";
+  font-weight: bolder;
+  transform: translateX(120rem); /*animate*/
+}
+.intro-text3 {
+  opacity: 0; /*animate*/
+  font-size: 5rem;
+  font-family: "Poppins";
+  font-weight: bolder;
+}
+.intro-text4 {
+  opacity: 0; /*animate*/
+  font-size: 6rem;
+  font-family: "Great Vibes";
+  color: rgb(12, 54, 71);
+  font-weight: lighter;
+}
+
+.slide {
+  background: #b4c6ce;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  align-items: center; /*animate*/
+}
